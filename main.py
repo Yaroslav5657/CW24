@@ -1,7 +1,7 @@
 from aiogram import Bot, Dispatcher,executor,types
 from aiogram.types.web_app_info import WebAppInfo
 
-bot = Bot('6663947089:AAF1hJBzGNczybEdEscOmpaI_6EmEgey6rc')
+bot = Bot('Ваш токен')
 dp = Dispatcher(bot)
 
 @dp.message_handler(commands=['start'])
